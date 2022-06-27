@@ -1,0 +1,13 @@
+@mixin font($ayana, $valihan, $color) {
+    font-family: "Montserrat";
+    font-size: $ayana;
+    font-weight: $valihan;
+
+    color: $color;
+}
+
+@mixin flex($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
